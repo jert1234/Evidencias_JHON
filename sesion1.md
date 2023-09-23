@@ -18,25 +18,23 @@ Cada persona debe responder brevemente las siguientes preguntas:
 - **¿Has escrito código en Python?** ¿De qué tipo? (algoritmos simples, funciones, clases, librerías, proyectos completos)
 
 Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
+```python
+import numpy as np
 
+class Calculator:
+    def add(self, a, b):
+        return a + b
 
-`import numpy as np`
+def calculate_mean(numbers):
+    return np.mean(numbers)
 
-`class Calculator:`
-    `def add(self, a, b):`
-        `return a + b`
+calc = Calculator()
+result = calc.add(5, 3)
+print(result)
 
-`def calculate_mean(numbers):`
-    `return np.mean(numbers)`
-
-`calc = Calculator()`
-`result = calc.add(5, 3)`
-`print(result)`
-
-`data = [10, 15, 20, 25, 30]`
-`mean = calculate_mean(data)`
-`print(f"Mean: {mean}")`
-
+data = [10, 15, 20, 25, 30]
+mean = calculate_mean(data)
+print(f"Mean: {mean}")```
 Escribe los comandos de Git que conoces y una breve explicación de cada uno.
 
 Comparten los resultados en el grupo y generan una lista de:
