@@ -99,7 +99,7 @@ Elijan un representante que comparta un resumen de la lista generada con el grup
 
 4. Asegúrate de que cada infografía sea fácil de entender y visualmente atractiva. Utiliza colores llamativos, íconos e imágenes para hacerlas más atractivas.
 
-### Infografía Seccion 1
+### Infografía 
 
 ![Texto alternativo](/foto/infografia.png)
 
