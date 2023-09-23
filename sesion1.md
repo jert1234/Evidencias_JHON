@@ -34,7 +34,8 @@ print(result)
 
 data = [10, 15, 20, 25, 30]
 mean = calculate_mean(data)
-print(f"Mean: {mean}")```
+print(f"Mean: {mean}")
+ ```
 Escribe los comandos de Git que conoces y una breve explicación de cada uno.
 
 Comparten los resultados en el grupo y generan una lista de:
