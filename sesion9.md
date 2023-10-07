@@ -10,6 +10,10 @@
 - Crear un proyecto de Python y utilizar la librería pandas para realizar la limpieza de datos del siguiente conjunto de datos de venta de vehículos
 - Descargar - Conjunto de Datos "Venta de Vehiculos"
 - Documentar los problemas de datos encontrados
+
+
+
+## Ejercicio 
 ```python
 import pandas as pd
 import streamlit as st
@@ -68,5 +72,6 @@ else:
 
 ```
 ## Enlace hacia el repositorio donde se encuentra el ejercicio
-- https://github.com/jert1234/Ejercicio9-10.git 
+-  
 
+[Enlace de GitHub ](https://github.com/jert1234/Ejercicio9-10.git)
