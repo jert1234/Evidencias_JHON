@@ -14,6 +14,7 @@
 
 
 ## Ejercicio 
+
 ```python
 import pandas as pd
 import streamlit as st
@@ -63,13 +64,8 @@ else:
 
   
     df.to_csv('ventas_vehiculos_filtrados.csv', index=False)
-
-    
     st.dataframe(df)
-
-
     st.write(f"Registros restantes: {len(df)}")
-
 ```
 ## Enlace hacia el repositorio donde se encuentra el ejercicio
 -  
