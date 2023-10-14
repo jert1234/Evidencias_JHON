@@ -91,8 +91,13 @@ print(preciomodelo)
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 md = df.loc[ (df['marca'] == "Volkswagen") & (df['modelo'] != "Jetta"), :]
 print(md)
-# ---------------------------------------------------------------------------------------------------------
 ```
+
+
+
+
+
+
 
 2. Ejercicios iloc
 Utilizando el DataFrame de autos con 20 filas y 4 columnas, realiza las siguientes consultas utilizando el método iloc de Pandas:
