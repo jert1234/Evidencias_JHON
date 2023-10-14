@@ -31,16 +31,18 @@ print(df_autos)
 ## 1. Ejercicios loc
 Utilizando el DataFrame de autos con 20 filas y 4 columnas, realiza las siguientes consultas utilizando el método loc de Pandas:
 
- - Seleccionar todas las filas de la columna "marca".
- - Seleccionar las filas de los autos cuyo precio es mayor a $40,000.
- - Seleccionar las filas de los autos que son de la marca "BMW".
- - Seleccionar las filas de los autos que son de la marca "Toyota" y tienen un precio menor a $20,000.
- - Seleccionar las filas de los autos que son del año 2019.
- - Seleccionar las filas de los autos que son del año 2016 o anteriores.
- - Seleccionar las filas de los autos que son de la marca "Honda" y el modelo es "Civic".
- - Seleccionar las filas de los autos que tienen un precio entre $25,000 y $30,000.
- - Seleccionar las filas de los autos que tienen un precio mayor a $30,000 y el modelo es "C-Class".
- - Seleccionar las filas de los autos que son de la marca "Volkswagen" y el modelo no es "Jetta".
+- Seleccionar todas las filas de la columna "marca".
+- Seleccionar las filas de los autos cuyo precio es mayor a $40,000.
+- Seleccionar las filas de los autos que son de la marca "BMW".
+- Seleccionar las filas de los autos que son de la marca "Toyota" y tienen un precio menor a $20,000.
+- Seleccionar las filas de los autos que son del año 2019.
+- Seleccionar las filas de los autos que son del año 2016 o anteriores.
+- Seleccionar las filas de los autos que son de la marca "Honda" y el modelo es "Civic".
+- Seleccionar las filas de los autos que tienen un precio entre $25,000 y $30,000.
+- Seleccionar las filas de los autos que tienen un precio mayor a $30,000 y el modelo es "C-Class".
+- Seleccionar las filas de los autos que son de la marca "Volkswagen" y el modelo no es "Jetta".
+
+
 ```python 
 import pandas as pd
 import numpy as np
@@ -88,7 +90,6 @@ md = df.loc[ (df['marca'] == "Volkswagen") & (df['modelo'] != "Jetta"), :]
 print(md)
 ```
 
-
 2. Ejercicios iloc
 Utilizando el DataFrame de autos con 20 filas y 4 columnas, realiza las siguientes consultas utilizando el método iloc de Pandas:
 
@@ -102,6 +103,7 @@ Utilizando el DataFrame de autos con 20 filas y 4 columnas, realiza las siguient
 - Seleccionar las filas de los autos que son del año 2018 y tienen un precio mayor a $20,000.
 - Seleccionar las filas de los autos que tienen un precio mayor a $30,000 y la marca es "Toyota".
 - Seleccionar las filas de los autos que son de la marca "Honda" y el modelo no es "Civic".
+
 ```python
 import pandas as pd
 import numpy as np
