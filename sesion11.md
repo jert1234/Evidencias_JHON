@@ -9,9 +9,9 @@
 
 
 
-
-## Actividad: Filtros en pandas (loc-iloc)
 ```python
+## Actividad: Filtros en pandas (loc-iloc)
+
 import pandas as pd
 import numpy as np
 
@@ -41,6 +41,9 @@ Utilizando el DataFrame de autos con 20 filas y 4 columnas, realiza las siguient
 - Seleccionar las filas de los autos que tienen un precio entre $25,000 y $30,000.
 - Seleccionar las filas de los autos que tienen un precio mayor a $30,000 y el modelo es "C-Class".
 - Seleccionar las filas de los autos que son de la marca "Volkswagen" y el modelo no es "Jetta".
+
+
+
 ```python
 import pandas as pd
 import numpy as np
